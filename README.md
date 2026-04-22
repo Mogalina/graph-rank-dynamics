@@ -8,7 +8,11 @@ Measuring the relative importance of elements within a networked system is a fun
 
 ## Implementation Details
 The algorithm computes the stationary distribution of a Markov chain using the following iterative formula:
-$$PR(v) = \frac{1-d}{N} + d \left( \sum_{u \in In(v)} \frac{PR(u)}{Out(u)} + \sum_{s \in Dangling} \frac{PR(s)}{N} \right)$$
+
+$$
+PR(v) = \frac{1-d}{N} + d \left( \sum_{u \in In(v)} \frac{PR(u)}{Out(u)} + \sum_{s \in Dangling} \frac{PR(s)}{N} \right)
+$$
+
 Where:
 - $d$ is the **damping factor** (default: 0.85).
 - $N$ is the total number of nodes in the graph.
