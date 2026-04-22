@@ -1,0 +1,14 @@
+# Generated
+results.csv
+dataset.txt
+
+# Operating System
+.DS_Store
+
+# Python
+.pyc
+__pycache__
+
+# Editor
+.idea
+.vscode
