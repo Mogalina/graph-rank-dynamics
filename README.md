@@ -1,4 +1,4 @@
-# PageRank Importance Analysis
+# Graph Rank Dynamics
 
 ## Abstract
 This project provides a robust, lightweight Python implementation of the **PageRank algorithm**, originally developed by Larry Page and Sergey Brin for ranking web pages. The script utilizes the **power iteration method** to calculate a probability distribution representing the likelihood that a person randomly clicking on links will arrive at any particular node. It handling complex graph structures, including "dangling nodes" (nodes with zero outbound links), through a stochastic redistribution mechanism.
