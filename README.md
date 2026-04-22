@@ -4,7 +4,7 @@
 This project provides a robust, lightweight Python implementation of the **PageRank algorithm**, originally developed by Larry Page and Sergey Brin for ranking web pages. The script utilizes the **power iteration method** to calculate a probability distribution representing the likelihood that a person randomly clicking on links will arrive at any particular node. It handling complex graph structures, including "dangling nodes" (nodes with zero outbound links), through a stochastic redistribution mechanism.
 
 ## Motivation
-Measuring the relative importance of elements within a networked system is a fundamental task in various fields, including search engine optimization (SEO), social network analysis, and bibliometrics. While many implementations exist, this tool aims to provide a transparent and extensible framework that combines core algorithmic logic with automated connectivity statistics (in-degree, out-degree, and total degree), directly facilitating quantitative research and data analysis.
+Measuring the relative importance of elements within a networked system is a fundamental task in various fields, including search engine optimization (SEO), social network analysis, and bibliometrics. While many implementations exist, this tool aims to provide a transparent and extensible framework that combines core algorithmic logic with automated connectivity statistics, directly facilitating quantitative research and data analysis.
 
 ## Implementation Details
 The algorithm computes the stationary distribution of a Markov chain using the following iterative formula:
